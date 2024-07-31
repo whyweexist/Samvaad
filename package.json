@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Michael-Vol/WorkNet.git"
+    "url": "git+https://github.com/whyweexist/Samvaad.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Michael-Vol/WorkNet/issues"
+    "url": "https://github.com/whyweexist/Samvaad"
   },
-  "homepage": "https://github.com/Michael-Vol/WorkNet#readme",
+  "homepage": "https://github.com/whyweexist/Samvaad#readme",
   "dependencies": {
     "concurrently": "^6.2.2",
     "nodemon": "^2.0.13"
