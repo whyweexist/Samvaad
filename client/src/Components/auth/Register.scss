@@ -1,0 +1,56 @@
+@import '../../Styles/abstracts/variables';
+// body {
+// 	background-image: $color-teal-gradient;
+// }
+.register {
+	background-image: $color-teal-gradient;
+}
+.form__title {
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.form__label {
+	font-size: 22px;
+}
+
+.form__icon {
+	position: relative;
+	right: 5px;
+}
+
+.form--container:hover {
+	transition: 0.4s;
+	box-shadow: rgba(0, 0, 0, 0.45) 15px 14px 28px, rgba(0, 0, 0, 0.45) 15px 14px 10px;
+}
+
+.register--container {
+	margin-top: 10%;
+	padding: 20px;
+	animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.form--title {
+	margin-bottom: 20px;
+}
+
+.form--submit-btn {
+	margin-right: 50px;
+}
+
+.rs-input {
+	width: auto;
+}
+
+.rs-help-block {
+	text-align: right;
+}

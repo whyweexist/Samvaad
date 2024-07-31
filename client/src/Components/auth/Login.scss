@@ -1,0 +1,71 @@
+@import '../../Styles/abstracts/variables';
+// body {
+// 	background-image: $color-teal-gradient;
+// }
+
+.form__title {
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.form__label {
+	font-size: 24px;
+}
+
+.form__icon {
+	position: relative;
+	right: 5px;
+}
+
+.form--container {
+	border: 2 0px;
+	transition: box-shadow 0.3s;
+	border-radius: 20px;
+	text-align: center;
+	background-color: rgb(246, 246, 246);
+	width: fit-content;
+}
+
+.login {
+	background-image: $color-teal-gradient;
+}
+.login--container {
+	margin-top: 20vh;
+	animation: fadeIn 1s;
+}
+.login--container:hover {
+	transition: 0.4s;
+	box-shadow: rgba(0, 0, 0, 0.45) 15px 14px 28px, rgba(0, 0, 0, 0.45) 15px 14px 10px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.form--title {
+	margin-bottom: 20px;
+}
+
+.rs-input {
+	width: auto;
+}
+
+.rs-help-block {
+	text-align: right;
+}
+
+#login {
+	place-self: center;
+}
+
+.rs-panel-bordered {
+	border: none;
+}
+
+.loader {
+	height: 80%;
+}

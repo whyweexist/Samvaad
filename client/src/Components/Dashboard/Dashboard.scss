@@ -1,0 +1,143 @@
+@import '../../Styles/main';
+.container {
+	border-radius: 5px;
+}
+.dashboard--container {
+	margin-bottom: 0px;
+	height: 90vh;
+	overflow-y: scroll;
+}
+.posts--container {
+	margin: 20px;
+	border: 3px solid $color-base;
+	background-color: rgb(240, 242, 245);
+	border-radius: 8px;
+	overflow-y: scroll;
+	height: 90vh;
+	padding: 30px;
+}
+.add--post--btn {
+	background-color: $color-base;
+	color: white;
+}
+.add--post--btn:hover {
+	background-color: darken($color-base, 5%);
+	color: white;
+}
+
+.create--post--container {
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: rgb(240, 242, 245);
+	color: $color-base;
+}
+
+.post--container {
+	font-size: 16px;
+	background-color: lighten($color-white-light, 5%);
+	margin-bottom: 20px;
+	padding: 40px 25px 10px 25px;
+	margin-left: 130px;
+}
+.posts--container::-webkit-scrollbar {
+	display: none; /* for Chrome, Safari, and Opera */
+}
+
+.posts--header {
+	font-size: 32px;
+	color: $color-base;
+}
+.posts--divider {
+	height: 2px;
+	border-radius: 2px;
+	background-color: $color-base;
+	margin-top: 0px;
+}
+
+.new--post--header {
+	font-size: 36px;
+	text-align: left;
+}
+
+.new--post--btn {
+	font-size: 22px;
+	width: fit-content;
+	background-color: lighten($color-base, 5%);
+	color: white;
+	transition: 0.5s;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.new--post--btn:hover {
+	background-color: $color-base;
+	color: white;
+}
+.refresh--posts--btn:hover {
+	background-color: $color-base;
+	color: white;
+}
+.refresh--posts--btn {
+	font-size: 22px;
+	width: fit-content;
+	float: right;
+	background-color: lighten($color-base, 5%);
+	color: white;
+	transition: 0.5s;
+	margin-bottom: 20px;
+}
+.new--post--form {
+	text-align: left;
+	background-color: $color-white-secondary;
+	border-radius: 5px;
+	padding: 45px 45px 60px 45px;
+	color: $color-base;
+	margin: auto;
+	width: 100%;
+}
+
+.form__label {
+	width: 100%;
+	font-size: 22px;
+}
+.submit--post--btn {
+	margin-right: 15px;
+}
+.cancel--post--btn {
+	background-color: white;
+}
+.dashboard--flex--container {
+	height: 100vh;
+	display: flex;
+	align-items: stretch;
+}
+.add--post--toolbar {
+	float: right;
+}
+
+.post--header {
+	margin-bottom: 15px;
+}
+
+.test {
+	width: 100%;
+}
+
+.users--list--container {
+	background-color: rgb(240, 242, 245);
+	margin: 20px 10px 0px 0px;
+	border: 3px solid $color-base;
+	border-radius: 8px;
+	padding: 20px;
+	height: 90vh;
+	overflow-y: scroll;
+}
+
+.image--uploader {
+	margin-right: 10px;
+}
+
+.users--list--header {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: $color-base;
+}

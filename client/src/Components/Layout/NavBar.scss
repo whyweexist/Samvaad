@@ -1,0 +1,31 @@
+@import '../../Styles/main.scss';
+@import '../../Styles//components/links';
+.navbar-brand {
+	padding: 16px 20px;
+	display: inline-block;
+	font-weight: 400;
+}
+
+.rs-navbar {
+	text-decoration: none;
+	border-radius: 0px 0px 4px 4px;
+	padding: 8px;
+	height: 10%;
+}
+
+.link {
+	font-weight: 400;
+	text-decoration: none;
+	color: #fff !important;
+}
+
+.rs-nav-item > .rs-nav-item-content {
+	font-size: 18px;
+}
+
+.nav-icon {
+	margin-right: 10px;
+}
+.fa-bell {
+	padding-left: 15px;
+}

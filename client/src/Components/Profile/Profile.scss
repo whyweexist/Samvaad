@@ -1,0 +1,149 @@
+@import '../../Styles/main';
+
+.profile--main--container {
+	text-align: center;
+	background-color: $color-white-secondary;
+	border: 5px $color-base;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 15px;
+	height: 90vh;
+	overflow-y: scroll;
+}
+
+.profile--main--container::-webkit-scrollbar {
+	display: none;
+}
+.loader {
+	padding-top: 40vh;
+}
+
+.profile--container {
+	// margin: 20px;
+}
+.connect-btn {
+	float: right;
+	font-size: 22px;
+	margin: 20px 20px 0px 0px;
+}
+.connect-btn--pending {
+	background-color: rgb(233, 200, 13);
+}
+.connect-btn--friends {
+	background-color: rgb(3, 139, 94);
+}
+
+.profile--avatar--container {
+	margin: 40px 0px 40px 0px;
+}
+.profile--avatar {
+	width: 20vh;
+	height: 20vh;
+	img {
+		width: 100% !important;
+		height: 100% !important;
+	}
+}
+.header--container {
+	margin-bottom: 20px;
+}
+.info--container {
+	margin: 20px;
+	font-size: 18px;
+}
+
+.item--container {
+	border: 2px $color-base;
+	border-radius: 10px;
+	padding: 15px 15px 15px 35px;
+	text-align: left;
+	margin: 15px;
+}
+
+.item--container:hover {
+	background-color: $color-base;
+	color: $color-white-secondary;
+	transition: 0.3s;
+}
+
+.list--item--header {
+	font-size: 24px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.list--item--sector {
+	font-size: 22px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.list--item--description {
+	font-size: 16px;
+}
+
+.no--info--container {
+	font-size: 28px;
+	margin-top: 10vh;
+}
+
+.list--item--visibility {
+	float: right;
+}
+
+.profile--friends--container {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	margin-bottom: 20px;
+	height: 25vh;
+	width: 100%;
+	// max-width: 100vh;
+}
+.name--header {
+	color: $color-base-secondary;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.section--header--divider {
+	background-color: $color-base-secondary;
+	height: 3px;
+}
+.section--header {
+	font-size: 28px;
+	text-align: left;
+	margin-left: 20px;
+	color: $color-base-secondary;
+}
+.profile--friends--container::-webkit-scrollbar {
+	display: none;
+}
+
+.friend--item--container > .rs-panel {
+	background-color: #fff;
+	border: 5px $color-base;
+	border-radius: 10px;
+	display: inline-block;
+	animation: fadeIn 1.5s;
+	margin: 15px;
+	width: 22vh;
+	height: 20vh;
+	display: inline-block;
+	white-space: initial;
+}
+
+.no--friends {
+	font-size: 24px;
+	margin-bottom: 10vh;
+}
+
+.back--button {
+	float: left;
+	margin: 28px 0px 0px 25px;
+	color: lighten($color-base-secondary, 10%);
+}
+.back--button:hover {
+	transition: 0.5s;
+	color: $color-base-secondary;
+}

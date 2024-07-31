@@ -1,0 +1,43 @@
+@import '../../Styles/main.scss';
+@import '../../Styles//components/links';
+
+.show-grid {
+	display: flex;
+	justify-content: center;
+}
+
+.landing__btn {
+	height: 55px;
+	width: 150px;
+	margin-top: 50px;
+	margin-right: 5px;
+	font-weight: 400;
+}
+
+.landing__title {
+	color: $color-white;
+	font-size: 80px;
+}
+.landing__subtitle {
+	margin-top: 25px;
+	font-size: 35px;
+	color: $color-white;
+}
+.landing--background {
+	// background:
+	background-image: $color-teal-gradient-opaque, url(/Images/landing-background-vector.jpg);
+	background-size: cover;
+}
+
+.show-grid {
+	margin: 10px;
+}
+
+.landing--grid {
+	margin-top: 10%;
+}
+
+.auth--btn {
+	font-size: 20px;
+	color: $color-base;
+}

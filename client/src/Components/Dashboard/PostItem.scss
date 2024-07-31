@@ -1,0 +1,111 @@
+@import '../../Styles/main';
+
+.post--user--info {
+	padding-top: 10px;
+	font-size: 18px;
+	width: fit-content;
+}
+.post--date {
+	float: right;
+	margin: auto;
+}
+.post--title {
+	margin-bottom: 15px;
+}
+.post--body {
+	margin-bottom: 20px;
+}
+
+.image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.post--image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.post--actions {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: fit-content;
+	border-radius: 10px;
+	padding-top: 7px;
+}
+
+.like--btn {
+	width: fit-content;
+}
+.comment--btn {
+	width: fit-content;
+	margin: 5px;
+	float: right;
+	color: $color-base;
+	padding-right: 10px;
+}
+.comment--btn:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.like--icon {
+	margin-right: 5px;
+}
+.comment--icon {
+	margin-right: 5px;
+	color: $color-base;
+}
+
+.likes--count {
+	margin-left: 5px;
+	background-color: $color-base;
+}
+.comments {
+	background-color: darken($color-white-secondary, 2%);
+	animation: fadeIn 1s;
+	border-radius: 10px;
+}
+
+.comments--list {
+	transition: ease-in 2s;
+	border-radius: 10px;
+}
+
+.write--comment--container {
+	width: 100%;
+	padding: 10px;
+}
+
+.write--comment {
+	width: 100%;
+	padding: 10px;
+}
+
+.post--comment--btn {
+	float: right;
+	margin: 10px;
+}
+
+.comment--group {
+	background-color: #fff;
+}
+.video-player {
+	margin-left: 140px;
+}
+
+.like--avatars {
+	margin: 0px 10px 10px 0px;
+	background-color: $color-white-secondary;
+	border-radius: 16px;
+	padding: 7px 10px;
+	height: 80%;
+	width: fit-content;
+}
+
+.like--avatar {
+	margin-right: 3px;
+}
+.likes--description {
+	margin-left: 5px;
+	color: $color-base-secondary;
+}
