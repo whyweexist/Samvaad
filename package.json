@@ -1,0 +1,29 @@
+{
+  "name": "worknet",
+  "version": "1.0.0",
+  "description": "## A Social Network for Professionals",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "dev": "concurrently \"nodemon ./server/src/server.js\" \" npm start --prefix client/ \"",
+    "build": "cd server && npm install && cd ../client && npm install --legacy-peer-deps && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Vol/WorkNet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Michael-Vol/WorkNet/issues"
+  },
+  "homepage": "https://github.com/Michael-Vol/WorkNet#readme",
+  "dependencies": {
+    "concurrently": "^6.2.2",
+    "nodemon": "^2.0.13"
+  },
+  "engines": {
+    "node": ">=14.0.0 <17.0.0"
+  }
+}
